@@ -1,0 +1,9 @@
+# tg-image-bed-worker 部署配置（改 name 即可；TG_BOT_TOKEN 用 secret 注入，绝不写入本文件）
+name = "tg-image-bed-worker"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+# 可选：自定义域名绑定（域名须托管在同一 Cloudflare 账号；deploy 自动创建子域 DNS 与证书）
+# routes = [
+#   { pattern = "tg.你的域名.com", custom_domain = true }
+# ]
